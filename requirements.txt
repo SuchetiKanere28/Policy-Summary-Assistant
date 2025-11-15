@@ -1,11 +1,12 @@
 streamlit==1.28.0
 pypdf2==3.0.1
 python-docx==0.8.11
+
+# transformers + CPU support
 transformers==4.35.0
-torch==2.9.1
-sentencepiece==0.1.99
-asyncio==3.4.3
+accelerate==0.23.0
+sentencepiece
+
+# async + utils
 aiofiles==23.2.1
 tqdm==4.66.1
-
-threading-timeout==1.2.0
